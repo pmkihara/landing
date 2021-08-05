@@ -1,0 +1,16 @@
+/* Your button CSS file */
+
+.btn-round-orange {
+  background-color: #FF7F11;
+  padding: 12px 24px;
+  border-radius: 30px;
+  color: white;
+  display: inline-block;
+}
+.btn-round-black a {
+  text-decoration: none;
+}
+.btn-round-black:hover {
+  background-color: #1E1E24;
+  box-shadow: 0px 0px 4px rgb(0 0 0 / 60%);
+}

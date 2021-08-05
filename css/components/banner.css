@@ -1,0 +1,16 @@
+.banner {
+  height: 75vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgb(0 0 0 / 60%);
+}
+.banner p {
+  font-size: 20px;
+  opacity: 0.75;
+}
+.banner h1 {
+  margin-top: 0;
+}

@@ -1,0 +1,41 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito+Sans:ital,wght@0,400;0,700;1,400&family=Rosario&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+/* @import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css"); */
+
+
+/* Components */
+@import url('components/banner.css');
+@import url('components/button.css');
+@import url('components/cards.css');
+@import url('components/container.css');
+@import url('components/display-inline.css');
+@import url('components/footer.css');
+@import url('components/icon.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Nunito Sans';
+  color: #1E1E24;
+  background-color: #F7EBE8;
+}
+
+h1 {
+  font-family: 'Montserrat';
+}
+
+h2, h3, h4 {
+  font-family: 'Rosario';
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.text-center {
+  text-align: center;
+}
