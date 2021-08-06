@@ -4,11 +4,11 @@
   margin-top: 30px;
 }
 .footer-dark a {
-  color: #FF7F11;
-}
-.footer-dark a:hover {
   color: white;
   opacity: 0.6;
+}
+.footer-dark a:hover {
+  opacity: 1;
 }
 .footer-dark p {
   opacity: 0.6;
