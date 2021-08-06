@@ -6,6 +6,8 @@
   align-items: center;
   color: white;
   text-shadow: 2px 2px 4px rgb(0 0 0 / 60%);
+  position: relative;
+  justify-content: flex-end;
 }
 .banner p {
   font-size: 20px;
@@ -13,4 +15,20 @@
 }
 .banner h1 {
   margin-top: 0;
+}
+.banner .credits {
+  position: absolute;
+  align-self: flex-end;
+  margin-right: 15px;
+}
+.banner .credits p {
+  font-size: 12px;
+  font-style: italic;
+}
+.banner .credits a {
+  color: white;
+  opacity: 0.5;
+}
+.banner .credits a:hover {
+  opacity: 1;
 }
